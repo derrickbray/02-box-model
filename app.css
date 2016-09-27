@@ -20,9 +20,12 @@ padding-left: 5rem;
 }
 .box-content{
   background: green;
-  height: 65vh;
+  height: 70vh;
 }
 .box_individual{
   background: yellow;
-  height: 25vh;
+  border: 0.1em solid black;
+  display: inline-block;
+  height: 35vh;
+  width: calc{100%/2- 1rem- 1rem};
 }
