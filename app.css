@@ -32,6 +32,10 @@ padding-left: 5rem;
 .top{
 text-align: left;
 display: block;
+overflow: auto;
+}
+.photo{
+  float: left;
 }
 //*.top.name{
   display: ;
