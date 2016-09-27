@@ -1,3 +1,28 @@
-body{
+*{
+  box-sizing: border-box;
+}
+nav{
+  background: lightblue;
+  overflow: auto;
+  height: 10vh;
+  border-radius: 7%;
+  margin: 2rem 2rem;
+}
+.nav_title{
+  color: white;
+float: left;
+padding-left: 5rem;
+}
+.nav_bar{
+  color: white;
+  float: right;
+  padding-right: 5rem;
+}
+.box-content{
   background: green;
+  height: 65vh;
+}
+.box_individual{
+  background: yellow;
+  height: 25vh;
 }
