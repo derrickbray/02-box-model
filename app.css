@@ -25,7 +25,23 @@ padding-left: 5rem;
 .box_individual{
   background: yellow;
   border: 0.1em solid black;
-  display: inline-block;
+  display: block;
   height: 35vh;
   width: calc{100%/2- 1rem- 1rem};
+}
+.top{
+text-align: left;
+display: block;
+}
+//*.top.name{
+  display: ;
+}*//
+.middle{
+
+}
+.bottom{
+
+}
+img{
+height: 20vh;
 }
