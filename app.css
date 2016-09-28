@@ -5,9 +5,9 @@
 nav {
   background: lightblue;
   overflow: auto;
-  height: 10vh;
-  border-radius: 7%;
-  margin: 2rem 2rem;
+  height: 6vh;
+
+  margin: 0 0 0 0;
 }
 
 .nav_title {
@@ -35,7 +35,7 @@ nav {
   width: calc(100%/3 - 1rem - 1rem);
   overflow: auto;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
-  margin: 0 0.5rem 0.5rem 1rem;
+  margin: 1rem 0.5rem 0.5rem 1rem;
 }
 
 .top {
