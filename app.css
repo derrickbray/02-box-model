@@ -32,29 +32,48 @@ nav {
   border: 0.1em solid black;
   display: block;
   height: 35vh;
-  width: calc {
-    100%/2- 1rem- 1rem
-  }
-  ;
+  width: calc (
+    100%/2- 1rem- 1rem);
+    overflow: auto;
 }
 
 .top {
   text-align: left;
   display: block;
   overflow: auto;
+  border: 0.1rem solid black;
 }
 
 .photo {
   float: left;
 }
 
-//*.top.name{
-display:;
+
 
 }
-* //
-.middle {}
-.bottom {}
+.middle {
+border: 0.1rem solid black;
+display: inline-block;
+overflow: auto;
+}
+
+.bottom {
+  border: 0.1rem solid black;
+  overflow: auto;
+  display: inline-block;
+}
 img {
   height: 20vh;
+}
+.frame-middle{
+  float: left;
+}
+.lang-middle{
+  float: right;
+}
+.frame-bottom{
+  float: left;
+}
+.lang-bottom{
+  float: right;
 }
