@@ -28,13 +28,12 @@ nav {
 }
 
 .box_individual {
-  background: yellow;
+  background: none;
   border: 0.1em solid black;
   display: block;
   height: 35vh;
-  width: calc (
-    100%/2- 1rem- 1rem);
-    overflow: auto;
+  width: calc (100%/3 - 1rem - 1rem);
+  overflow: auto;
 }
 
 .top {
@@ -49,14 +48,12 @@ nav {
 }
 
 
-
 }
 .middle {
-border: 0.1rem solid black;
-display: inline-block;
-overflow: auto;
+  border: 0.1rem solid black;
+  display: inline-block;
+  overflow: auto;
 }
-
 .bottom {
   border: 0.1rem solid black;
   overflow: auto;
@@ -65,15 +62,27 @@ overflow: auto;
 img {
   height: 20vh;
 }
-.frame-middle{
+.frame-middle {
   float: left;
 }
-.lang-middle{
+.lang-middle {
   float: right;
 }
-.frame-bottom{
+.frame-bottom {
   float: left;
 }
-.lang-bottom{
+.lang-bottom {
   float: right;
+}
+.circle-middle {
+  background: red;
+  width: 1rem;
+  float: right;
+  border-radius: 50%;
+}
+.circle-bottom {
+  background: orange;
+  width: 1rem;
+  float: right;
+  border-radius: 50%;
 }
