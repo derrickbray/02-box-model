@@ -35,7 +35,7 @@ nav {
   width: calc(100%/3);
   overflow: auto;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
-  margin: 0 0.5rem 0.5rem 0;
+  margin: 0 0.5rem 0.5rem 1rem;
 }
 
 .top {
@@ -45,7 +45,7 @@ nav {
   border: 0.1rem solid grey;
   padding: 1rem;
   margin: 0;
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  /*box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);*/
 }
 
 .photo {
@@ -59,7 +59,7 @@ nav {
   display: block;
   overflow: auto;
   padding: 0.1rem;
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  /*box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);*/
 }
 
 //*.bottom {
@@ -73,27 +73,27 @@ box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 */ img {
   height: 20vh;
 }
-.frame1 {
+.frame {
   float: left;
 }
-.lang1 {
+.lang {
   float: right;
 }
-.frame2 {
+/*.frame2 {
   float: left;
-}
-.lang2 {
+}*/
+/*.lang2 {
   float: right;
-}
-.circle1 {
+}*/
+/*.circle1 {
   background: red;
   width: 0.5rem;
   height: 0.5rem;
   float: right;
   border-radius: 50%;
   display: inline-block;
-}
-.lang2 span {
+}*/
+.lang span {
   background: red;
   width: 0.5rem;
   height: 0.5rem;
