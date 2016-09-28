@@ -23,27 +23,27 @@ nav {
 }
 
 .box {
-  background: green;
+
   height: 70vh;
   overflow: auto;
 }
 
 .box_individual {
-  background: yellow;
-  border: 0.1em solid black;
+  /*background: yellow;*/
+  border: 0.1em solid grey;
   display: inline-block;
-  height: 35vh;
+  height: 40vh;
   width: calc(100%/3);
   overflow: auto;
   /*padding: 1rem;*/
-  margin: 0.5rem;
+  margin: 0 0.5rem 0.5rem 0;
 }
 
 .top {
   text-align: left;
   display: block;
   overflow: auto;
-  border: 0.1rem solid black;
+  border: 0.1rem solid grey;
   padding: 1rem;
   margin: 0;
 }
@@ -55,16 +55,16 @@ nav {
 
 
 .middle {
-  border: 0.1rem solid black;
+  border: 0.1rem solid grey;
   display: block;
   overflow: auto;
-  padding: 1rem;
+  padding: 0.1rem;
 }
 .bottom {
-  border: 0.1rem solid black;
+  border: 0.1rem solid grey;
   overflow: auto;
   display: block;
-  padding: 1rem;
+  padding: 0.1rem;
 }
 img {
   height: 20vh;
@@ -81,15 +81,17 @@ img {
 .lang2 {
   float: right;
 }
-.circle-middle {
+.circle1 {
   background: red;
-  width: 1rem;
+  width: 0.5rem;
+  height: 0.5rem;
   float: right;
   border-radius: 50%;
 }
-.circle-bottom {
-  background: orange;
-  width: 1rem;
+.circle2 {
+  background: red;
+  width: 0.5rem;
+  height: 0.5rem;
   float: right;
   border-radius: 50%;
 }
