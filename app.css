@@ -31,10 +31,10 @@ nav {
   /*background: yellow;*/
   border: 0.1em solid grey;
   display: inline-block;
-  height: 40vh;
+  height: 41vh;
   width: calc(100%/3);
   overflow: auto;
-  /*padding: 1rem;*/
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
   margin: 0 0.5rem 0.5rem 0;
 }
 
@@ -45,6 +45,7 @@ nav {
   border: 0.1rem solid grey;
   padding: 1rem;
   margin: 0;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
 .photo {
@@ -56,6 +57,7 @@ nav {
   display: block;
   overflow: auto;
   padding: 0.1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
 .bottom {
@@ -63,6 +65,7 @@ nav {
   overflow: auto;
   display: block;
   padding: 0.1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
 img {
