@@ -23,7 +23,6 @@ nav {
 }
 
 .box {
-
   height: 70vh;
   overflow: auto;
 }
@@ -52,35 +51,40 @@ nav {
   float: left;
 }
 
-
-
 .middle {
   border: 0.1rem solid grey;
   display: block;
   overflow: auto;
   padding: 0.1rem;
 }
+
 .bottom {
   border: 0.1rem solid grey;
   overflow: auto;
   display: block;
   padding: 0.1rem;
 }
+
 img {
   height: 20vh;
 }
+
 .frame1 {
   float: left;
 }
+
 .lang1 {
   float: right;
 }
+
 .frame2 {
   float: left;
 }
+
 .lang2 {
   float: right;
 }
+
 .circle1 {
   background: red;
   width: 0.5rem;
@@ -88,6 +92,7 @@ img {
   float: right;
   border-radius: 50%;
 }
+
 .circle2 {
   background: red;
   width: 0.5rem;
