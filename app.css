@@ -32,7 +32,7 @@ nav {
   border: 0.1em solid grey;
   display: inline-block;
   /*height: 10em;*/
-  width: calc(100%/3);
+  width: calc(100%/3 - 1rem - 1rem);
   overflow: auto;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
   margin: 0 0.5rem 0.5rem 1rem;
