@@ -6,7 +6,6 @@ nav {
   background: lightblue;
   overflow: auto;
   height: 6vh;
-
   margin: 0 0 0 0;
 }
 
@@ -23,7 +22,7 @@ nav {
 }
 
 .box {
-  height: 70vh;
+  height: 100vh;
   overflow: auto;
 }
 
@@ -79,12 +78,15 @@ box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 .lang {
   float: right;
 }
+
 /*.frame2 {
   float: left;
 }*/
+
 /*.lang2 {
   float: right;
 }*/
+
 /*.circle1 {
   background: red;
   width: 0.5rem;
