@@ -95,10 +95,13 @@ box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   display: inline-block;
 }*/
-.lang span {
+span {
   background: red;
   width: 0.5rem;
   height: 0.5rem;
   float: right;
   border-radius: 50%;
+  position: relative;
+  right: 2rem;
+  top: 1.3rem;
 }
