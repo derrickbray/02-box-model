@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+  margin: 0;
+}
 nav {
   background: lightblue;
   overflow: auto;
@@ -20,7 +22,10 @@ nav {
   float: right;
   padding-right: 5rem;
 }
-
+.container{
+  margin: 0 auto;
+  max-width: 65rem;
+}
 .box {
   height: 100vh;
   overflow: auto;
@@ -69,8 +74,8 @@ padding: 0.1rem;
 box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
 }
-*/ img {
-  height: 20vh;
+*/img {
+  height: 20%;
 }
 .frame {
   float: left;
