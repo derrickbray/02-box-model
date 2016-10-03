@@ -78,14 +78,16 @@ img {
 .lang {
   float: right;
 }
-
-.circle {
-  background: red;
-  width: 0.5rem;
-  height: 0.5rem;
-  float: right;
-  border-radius: 50%;
-  position: relative;
-  right: 2rem;
-  top: 1.3rem;
+i {
+  color: red;
+}
+/*.circle {*/
+  /*background: red;*/
+  /*width: 0.5rem;*/
+  /*height: 0.5rem;*/
+  /*float: right;*/
+  /*border-radius: 50%;*/
+  /*position: relative;*/
+  /*right: 2rem;*/
+  /*top: 1.3rem;*/
 }
